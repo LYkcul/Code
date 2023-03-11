@@ -29,8 +29,8 @@
                 "-g",
                 "${file}",
                 "-o",
-                //"${fileDirname}\\${fileBasenameNoExtension}.exe"
-                "t.exe"
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                //"a.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"
